@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serief;
+    margin: 20px;
+    background-color: #F3F3E0; /* Warna latar belakang */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk navigasi */
+nav {
+    display: flex;
+    justify-content: center; /* Item ditata di tengah */
+    gap: 20px; /* Jarak antar tautan */
+    background-color: #133E87; /* Warna latar belakang navigasi */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+    border-radius: 5px; /* Membulatkan sudut */
+    margin-bottom: 20px; /* Spasi bawah */
+}
+
+nav a {
+    color: #CBDCEB; /* Warna teks */
+    text-decoration: none; /* Hilangkan garis bawah */
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Teks sejajar dengan ikon */
+    gap: 8px; /* Jarak antara ikon dan teks */
+    transition: color 0.3s, background-color 0.3s, transform 0.3s ease; /* Animasi hover */
+    padding: 8px 15px; /* Padding untuk klik area */
+    border-radius: 5px; /* Membulatkan area klik */
+}
+
+nav a:hover {
+    color: #F3F3E0; /* Warna teks saat hover */
+    background-color: #608BC1; /* Latar belakang saat hover */
+    transform: scale(1.05); /* Animasi membesar sedikit */
+}
+
+nav a i {
+    font-size: 18px; /* Ukuran ikon */
+}
+
+h1 {
+    text-align: center;
+    color: #133E87; /* Warna teks judul */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #CBDCEB; /* Warna border tabel */
+}
+
+th {
+    background-color: #608BC1; /* Warna header tabel */
+    color: #F3F3E0; /* Warna teks header */
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-add {
+    background-color: #28a745;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+/* Tombol edit dan hapus */
+table td a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+table td a[href*="edit"] {
+    background-color: #28a745; /* Warna hijau untuk tombol edit */
+}
+
+table td a[href*="#"] {
+    background-color: #dc3545; /* Warna merah untuk tombol hapus */
+}
+
+table td a:hover {
+    opacity: 0.8;
+}
+
+
+/* Section info style */
+.info-section, .cta-section {
+    background-color: #CBDCEB;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-section h2, .cta-section h2 {
+    color: #133E87;
+    margin-bottom: 10px;
+}
+
+.info-section ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #133E87;
+}
+
+.cta-section {
+    background-color: #608BC1;
+    color: #F3F3E0;
+    text-align: center;
+}
+
+.cta-section p {
+    margin-top: 10px;
+}
